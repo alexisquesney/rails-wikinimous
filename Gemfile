@@ -29,6 +29,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Generates fake data
 gem 'faker'
 
+gem 'redcarpet'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

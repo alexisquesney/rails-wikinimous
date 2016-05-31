@@ -25,7 +25,7 @@ class ArticlesController < ApplicationController
 
   def update
     @article.update(article_params)
-    redirect_to action: :index
+    redirect_to action: :show
   end
 
   def destroy
